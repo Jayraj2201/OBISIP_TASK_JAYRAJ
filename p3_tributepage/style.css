@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('baground.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: #191818;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: flex-start;   
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.container {
+    width: 50%; 
+    max-width: 500px;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px; 
+}
+
+header {
+    font-family: cursive;
+    margin-bottom: 15px;
+}
+
+header h2 {
+    font-size: 2rem;
+    color: #000000;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    font-family: cursive;
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h3 {
+    font-family: cursive;
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 15px;
+}
+#bio p{
+    font-family: cursive;
+    font-weight: 2px;
+}
+
+#movies {
+    width: 30%;
+    height: 5%;
+    position: absolute; 
+    left: 20px;
+    bottom: 20px; 
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.movie {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.movie-cover {
+    width: 80px; 
+    height: 120px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.movie-details p {
+    font-family: cursive;
+    color: #0e0e0e;
+    margin: 5px 0;
+}
+.cover-image {
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
